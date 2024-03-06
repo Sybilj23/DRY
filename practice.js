@@ -1,47 +1,42 @@
 function multiplyBiggerNumByTwo(num1, num2) {
-  let bigNum;
+  let BigNum;
   if (num1 > num2) {
-    bigNum = num1;
-    return bigNum * 2;
+    BigNum = num1;
   } else {
-    bigNum = num2;
-    return bigNum * 2;
+    BigNum = num2;
   }
+  return BigNum * 2;
 }
 
 function divideBiggerNumByThree(num1, num2) {
-  let bigNum;
+  let BigNum;
   if (num1 > num2) {
-    bigNum = num1;
-    return bigNum / 3;
+    BigNum = num1;
   } else {
-    bigNum = num2;
-    return bigNum / 3;
+    BigNum = num2;
   }
+  return BigNum / 3;
 }
 
 function eatMostTacos(sum1, sum2) {
-  let bigNum;
+  let BigNum;
   if (sum1 > sum2) {
-    bigNum = sum1;
-    return `I ate ${bigNum} tacos.`;
+    BigNum = sum1;
   } else {
-    bigNum = sum2;
-    return `I ate ${bigNum} tacos.`;
+    BigNum = sum2;
   }
+  return `I ate ${BigNum} tacos.`;
 }
 
 function adoptSmallerDog(weight1, weight2) {
-  let smallDog;
+  let BigNum;
   if (weight1 < weight2) {
-    smallDog = weight1;
-    return `I adopted a dog that weighs ${smallDog} pounds.`;
+    BigNum = weight1;
   } else {
-    smallDog = weight2;
-    return `I adopted a dog that weighs ${smallDog} pounds.`;
+    BigNum = weight2;
   }
+  return `I adopted a dog that weighs ${BigNum} pounds.`;
 }
-
 
 /**************************************************************************/
 /* DO NOT CHANGE THE CODE BELOW */
@@ -49,5 +44,5 @@ module.exports = {
   multiplyBiggerNumByTwo,
   divideBiggerNumByThree,
   eatMostTacos,
-  adoptSmallerDog
+  adoptSmallerDog,
 };
